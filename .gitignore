@@ -1,0 +1,21 @@
+# Virtual Envs
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model/Output Folders
+detected_plates/
+plates/
+results/
+runs/
+
+
+# VS Code
+.vscode/
+
+# OS clutter
+.DS_Store
+Thumbs.db

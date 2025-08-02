@@ -1,0 +1,7 @@
+# python env
+python -m venv venv
+venv\Scripts\activate
+
+
+# All libraries
+pip install ultralytics easyocr numpy opencv-python filterpy scikit-image matplotlib scipy
