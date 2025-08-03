@@ -25,7 +25,9 @@ os.makedirs("plates", exist_ok=True)
 os.makedirs("ocr", exist_ok=True)
 
 # Video capture
-cap = cv2.VideoCapture("my3.mp4")
+# cap = cv2.VideoCapture("uni-1.mp4") # ✅✅✅✅
+
+
 fps = cap.get(cv2.CAP_PROP_FPS)
 
 # Trackers
